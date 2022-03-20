@@ -59,7 +59,7 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 
-document.getElementById("app").setAttribute('overflow','hidden');
+document.getElementById("app").style="overflow:hidden;";
 
 const box = document.getElementById("center");
 const title = document.getElementById("title");
